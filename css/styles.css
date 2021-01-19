@@ -1,0 +1,152 @@
+h1 {
+	margin: 0px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #dfdfdf;
+	text-decoration: none;
+	background-color: #1e1e1e; 
+}
+h2 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin: 14px;
+  text-align: center;
+}
+body {
+	font-size: 18px;
+	background-color: #dfdfdf;
+	font-family: 'Oxygen';
+}
+p {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: justify;
+    margin: 14px;
+    font-size: 2vw;
+}
+a {
+  text-decoration: none;
+}
+#home_tile a, #link_tile a, #info_tile a {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+#info {
+  text-align: center;
+}
+#search_button {
+  background-color: #1e1e1e;
+  color: #dfdfdf;
+  border-color: #dfdfdf;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+#search_button:hover {
+  background-color: #dfdfdf;
+  color: #1e1e1e;
+  border-color: #1e1e1e;
+}
+.image_div {
+  background-image: url("Ivan2.JPG");
+  background-position: center top; 
+  height: 500px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  position: relative; 
+}
+#art_tile, #literature_tile, #music_tile, #photography_tile {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden; 
+}
+#art_tile:hover, #literature_tile:hover, #music_tile:hover, #photography_tile:hover {
+  box-shadow: 0 1px 5px 1px black;
+}
+#art_tile {
+  background-image: url("van_gogh_350.JPG");
+  background-position: center;
+}
+#art_tile span, #literature_tile span, #music_tile span, #photography_tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.8;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+#literature_tile {
+  background-image: url("shakespeare.JPG");
+  background-position: center;
+}
+#music_tile {
+  background-image: url("beethoven.JPG");
+  background-position: center;
+}
+#photography_tile {
+  background-image: url("photography.JPG");
+  background-position: center;
+}
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #1e1e1e;
+  border-top: 0;
+}
+#quote1 span, #quote2 span, #quote3 span, #quote4 span {
+  color: #dfdfdf;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+#quote1 a, #quote2 a, #quote3 a, #quote4 a {
+  text-decoration: none;
+}
+.text-center {
+  color: #dfdfdf;
+  font-size: 12px; 
+}
+#pic1, #pic2, #pic3, #pic4 {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden; 
+}
+#pic1 {
+  background-image: url(Ivan2.JPG);
+  background-position: center;
+}
+#pic2 {
+  background-image: url(the_scream.JPG);
+  background-position: center;
+}
+#pic3 {
+  background-image: url(monalisa.JPG);
+  background-position: center;
+}
+#pic4 {
+  background-image: url(last_supper.JPG);
+  background-position: center;
+}
+#pic1:hover, #pic2:hover, #pic3:hover, #pic4:hover {
+  box-shadow: 0 1px 5px 1px black;
+}
+#pic1 span, #pic2 span, #pic3 span, #pic4 span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.8;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
