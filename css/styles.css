@@ -42,7 +42,7 @@ a {
   border-color: #1e1e1e;
 }
 .image_div {
-  background-image: url("Ivan2.JPG");
+  background-image: url("../Ivan2.JPG");
   background-position: center top; 
   height: 500px;
   margin-bottom: 20px;
@@ -61,7 +61,7 @@ a {
   box-shadow: 0 1px 5px 1px black;
 }
 #art_tile {
-  background-image: url("van_gogh_350.JPG");
+  background-image: url("../van_gogh_350.JPG");
   background-position: center;
 }
 #art_tile span, #literature_tile span, #music_tile span, #photography_tile span {
@@ -78,15 +78,15 @@ a {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 #literature_tile {
-  background-image: url("shakespeare.JPG");
+  background-image: url("../shakespeare.JPG");
   background-position: center;
 }
 #music_tile {
-  background-image: url("beethoven.JPG");
+  background-image: url("../beethoven.JPG");
   background-position: center;
 }
 #photography_tile {
-  background-image: url("photography.JPG");
+  background-image: url("../photography.JPG");
   background-position: center;
 }
 .panel-footer {
@@ -119,19 +119,19 @@ a {
   overflow: hidden; 
 }
 #pic1 {
-  background-image: url(Ivan2.JPG);
+  background-image: url(../Ivan2.JPG);
   background-position: center;
 }
 #pic2 {
-  background-image: url(the_scream.JPG);
+  background-image: url(../the_scream.JPG);
   background-position: center;
 }
 #pic3 {
-  background-image: url(monalisa.JPG);
+  background-image: url(../monalisa.JPG);
   background-position: center;
 }
 #pic4 {
-  background-image: url(last_supper.JPG);
+  background-image: url(../last_supper.JPG);
   background-position: center;
 }
 #pic1:hover, #pic2:hover, #pic3:hover, #pic4:hover {
